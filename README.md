@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To see this project on GitHub Pages 
+Open [https://samuann.github.io/Mortage-Repayment-Calculator/](https://samuann.github.io/Mortage-Repayment-Calculator/)
 ## Available Scripts
 
 In the project directory, you can run:
