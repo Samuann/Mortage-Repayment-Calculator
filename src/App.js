@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import FormWraper from './components/FormWrapper';
+import './App.scss';
 
-function App() {
+const App = () => {
+  const [montlyRepayment, setMonthlyRepayment] = useState(0);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='LoanCalculator'>
+      <h1 className='LoanCalculator__header'> Mortage Calculator</h1>
+      <div className='LoanCalculator__container'>
+        <div className='LoanCalculator__form-wrapper' >
+          <FormWraper monthlyRepayment={setMonthlyRepayment} />
+        </div>
+        <div className='LoanCalculator__repayment-wrapper'> 
+        { montlyRepayment && montlyRepayment > 0 ? (
+          <>
+            <h3> Re-payment per Month </h3>
+            <p className='LoanCalculator__repayment'> {`£ ${montlyRepayment}`} </p>
+          </>          
+        ): null}
+
+          </div>
+      </div>
+      
     </div>
   );
 }

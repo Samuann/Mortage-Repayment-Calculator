@@ -1,0 +1,97 @@
+@import './core-variables-and-helpers';
+
+.Form {
+    font-family: Roberto-Thin;
+
+    &__label,
+    &__input-wrapper,
+    &__button-wrapper {
+        display: flex;
+    }
+
+    &__input-wrapper {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    &__label {
+        color: $dark-slate-gray;
+        padding-bottom: 0.5em;
+    }
+
+    &__price-value {
+        margin-left: auto;
+    }
+
+    &__input-home-price {
+        width: 100%;
+        height: 0.5em;
+        border-radius: 0.5em;
+        appearance:none;
+        background-color: $thistle;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::-webkit-slider-thumb {
+            appearance: none;
+            cursor: pointer;
+            width: 0.5em;
+            height: 0.5em;
+            border: 1em solid white;
+            border-radius: 50%;
+            background: $thistle;
+        }
+    }
+
+    &__deposit-percentage{
+        text-align: right;
+        margin: 0;
+        color: $dark-slate-gray;
+        padding-top: 0.5em;
+    }
+
+    &__button-container {
+        padding: 1em;
+
+        button {
+            font-size: 0.9em;
+            border: none;
+            width: 100%;
+            border-radius: 0.5em;
+            padding: 0.5em 1em;
+            cursor: pointer;
+
+            &:not(:first-child) {
+                margin-left: 0.1em;
+            }
+
+            &:not(:last-child) {
+                margin-right: 0.1em;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &__calculate-button-wrapper {
+        padding: 1em;
+    }
+
+    &__calculate-button {
+        width: 100%;
+        border: none;
+        border-radius: 0.5em;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 1em;
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+}
