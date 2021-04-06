@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Mortage-Repayment-Calculator/static/css/main.92077cfe.chunk.css",
+    "main.js": "/Mortage-Repayment-Calculator/static/js/main.6d53774b.chunk.js",
+    "main.js.map": "/Mortage-Repayment-Calculator/static/js/main.6d53774b.chunk.js.map",
+    "runtime-main.js": "/Mortage-Repayment-Calculator/static/js/runtime-main.41e39bc2.js",
+    "runtime-main.js.map": "/Mortage-Repayment-Calculator/static/js/runtime-main.41e39bc2.js.map",
+    "static/js/2.b724c2bf.chunk.js": "/Mortage-Repayment-Calculator/static/js/2.b724c2bf.chunk.js",
+    "static/js/2.b724c2bf.chunk.js.map": "/Mortage-Repayment-Calculator/static/js/2.b724c2bf.chunk.js.map",
+    "static/js/3.3c471aab.chunk.js": "/Mortage-Repayment-Calculator/static/js/3.3c471aab.chunk.js",
+    "static/js/3.3c471aab.chunk.js.map": "/Mortage-Repayment-Calculator/static/js/3.3c471aab.chunk.js.map",
+    "index.html": "/Mortage-Repayment-Calculator/index.html",
+    "static/css/main.92077cfe.chunk.css.map": "/Mortage-Repayment-Calculator/static/css/main.92077cfe.chunk.css.map",
+    "static/js/2.b724c2bf.chunk.js.LICENSE.txt": "/Mortage-Repayment-Calculator/static/js/2.b724c2bf.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/Mortage-Repayment-Calculator/static/media/Roboto-Thin.c38fab23.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41e39bc2.js",
+    "static/js/2.b724c2bf.chunk.js",
+    "static/css/main.92077cfe.chunk.css",
+    "static/js/main.6d53774b.chunk.js"
+  ]
+}
